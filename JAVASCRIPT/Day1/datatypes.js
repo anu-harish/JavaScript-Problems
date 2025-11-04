@@ -36,3 +36,4 @@ console.log(age);
 let ageno;
 
 console.log(ageno); 
+
