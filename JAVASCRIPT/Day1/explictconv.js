@@ -1,3 +1,4 @@
+// manually convertin one data type to another
 // string conversion
 let num = 123;
 let str = String(num);
