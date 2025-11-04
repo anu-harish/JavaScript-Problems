@@ -1,4 +1,4 @@
-function add(a,b){
-    return a+b;
-}
-console.log(add(3,5));
+let a = 5;
+let b = 3;
+let sum = a + b;
+console.log("The sum is: " + sum);
