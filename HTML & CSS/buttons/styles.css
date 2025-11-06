@@ -1,0 +1,144 @@
+.btn-1 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border: 0;
+}
+.btn-1:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.btn-2 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  border: 0;
+}
+.btn-2:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.btn-3 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: blue;
+  border-radius: 5px;
+  border-color: blue;
+}
+.btn-3:hover {
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.btn-3:focus {
+  border-color: black;
+}
+.btn-4 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border: 0;
+}
+.btn-4:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-5 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: 0;
+  cursor: not-allowed;
+}
+
+.btn-6 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border-radius: 3px;
+  box-shadow: 0 6px 0 indigo;
+  border: 0;
+}
+.btn-6:hover {
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.btn-7 {
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+  color: black;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  background-color: lightgray;
+}
+.btn-7:focus {
+  border-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.btn-8{
+/*   width:100px; */
+  font-weight: bold;
+  border-radius:3px;
+  border:0;
+  background-color: lightgray;
+  cursor:pointer;
+}
+.btn-8>i{
+   padding:15px;
+}
+.btn-8:hover{
+  background-color: silver;
+}
+.btn-8:focus{
+  border-color:black;
+}
+
+.container>button{
+  border:0;
+ background-color: gray;
+}
+.btn-9{
+  padding:20px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+.btn-9:hover{
+  background-color: silver;
+  cursor:pointer;
+}
+.btn-10{
+  padding:20px;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+}
+.btn-10:hover{
+  background-color: silver;
+   cursor:pointer;
+}
