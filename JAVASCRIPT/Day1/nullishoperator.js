@@ -16,7 +16,8 @@ console.log(false ?? true);            // false → not null/undefined → keep 
 
 //  Unlike || (which checks falsy values like 0, '', false),
 //    ?? only checks for nullish values (null or undefined).
-
+let tricky=(false||null)??"default";
+console.log("tricky:",tricky); //default--
 
 console.log('\n--- Comparison with || (OR) ---');
 
