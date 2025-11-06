@@ -14,7 +14,7 @@ console.log(x);
 "use strict";
 
 let x = 10;
-let y = 20; 
+let y = 20;
 
 console.log(x + y);
 
