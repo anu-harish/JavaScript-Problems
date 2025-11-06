@@ -12,7 +12,7 @@ console.log(null ?? 'fallback');       // 'fallback' → left is null
 console.log(undefined ?? 'fallback');  // 'fallback' → left is undefined
 console.log(0 ?? 5);                   // 0 → not null/undefined, so keep left
 console.log('' ?? 'default');          // '' → not null/undefined → keep left
-console.log(false ?? true);            // false → not null/undefined → keep left
+console.log(false ?? true)           // false → not null/undefined → keep left
 
 //  Unlike || (which checks falsy values like 0, '', false),
 //    ?? only checks for nullish values (null or undefined).
