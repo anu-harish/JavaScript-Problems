@@ -93,10 +93,10 @@ for (let i = 1; i <= 5; i++) {
 let i = 0;
 
 for (i = 0; i < 3; i++) { // use an existing variable
-  alert(i); // 0, 1, 2
+  console.log(i); // 0, 1, 2
 }
 
-alert(i); // 3, visible, because declared outside of the loop
+console.log(i); // 3, visible, because declared outside of the loop
 
 // ----------------------------------------------------------
 //  for loop with break
