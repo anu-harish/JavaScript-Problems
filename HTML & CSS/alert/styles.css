@@ -1,0 +1,44 @@
+.container {
+  width: 500px;
+}
+.alert,.info-color,.success-color,.warning-color,.error-color {
+  display: flex;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 13px;
+  gap: 15px;
+}
+.fa-circle-info {
+  color: blue;
+}
+.info-color {
+
+  background-color: skyblue;
+
+}
+
+.success-color {
+ 
+  background-color: lightgreen;
+
+}
+
+.warning-color {
+  
+  background-color: #ffcc00;
+  
+}
+.fa-triangle-exclamation {
+  color: #996633;
+}
+.error-color {
+  
+  background-color: #ff0099;
+  
+}
+.fa-circle-xmark {
+  color: #660000;
+}
